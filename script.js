@@ -7,7 +7,6 @@ const tarefas = ["Terminar trabalho Lab Web", "Treinar"]
 for (const itemTarefa of tarefas) {
 	const tarefaElement = document.createElement("li")
 	const tarefaText = document.createTextNode(itemTarefa)
-
 	tarefaElement.appendChild(tarefaText)
 	listElement.appendChild(tarefaElement)
 }
